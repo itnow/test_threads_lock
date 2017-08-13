@@ -1,11 +1,7 @@
 import sys
 import signal
 import requests
-from concurrent.futures import ThreadPoolExecutor
 from utils import bench
-
-
-executor = ThreadPoolExecutor(2)
 
 
 def signal_handler(signal, frame):
